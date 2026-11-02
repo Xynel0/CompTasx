@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "678452658913",
+    "project_id": "comptasx-database",
+    "storage_bucket": "comptasx-database.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:678452658913:android:969fe8a3afde1244fa6da0",
+        "android_client_info": {
+          "package_name": "com.example.comptasx"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "678452658913-vq6qnoeas6v0gkaelt8gcvltra6k3mne.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsQAiSCdbb5DX6vclEi-R9pggTHfg91MU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "678452658913-vq6qnoeas6v0gkaelt8gcvltra6k3mne.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
