@@ -1,11 +1,14 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.compose)
+    // Plugin do Google Services adicionado aqui:
+    alias(libs.plugins.google.services)
 }
 
 android {
     namespace = "com.example.comptasx"
     compileSdk {
+        // Mantendo o formato original da sua configuração
         version = release(37)
     }
 
@@ -51,4 +54,8 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
     debugImplementation(libs.androidx.compose.ui.test.manifest)
     debugImplementation(libs.androidx.compose.ui.tooling)
+
+    // Dependências do Firebase adicionadas aqui:
+    implementation(platform(libs.firebase.bom))
+    implementation(libs.firebase.auth)
 }
